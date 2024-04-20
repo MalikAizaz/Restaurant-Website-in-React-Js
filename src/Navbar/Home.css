@@ -1,0 +1,42 @@
+.image-container {
+    position: fixed; /* Set position to relative for absolute positioning of overlay */
+    /* max-width: 100%; Ensure the container does not exceed the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+  }
+  .responsive-image {
+    width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Allow the image to scale proportionally */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+  }
+
+@media (max-width: 768px) and (min-width:300px){
+    .image-container {
+      width: 100%; /* Ensure the image does not exceed the container width */
+      height: auto; /* Allow the image to scale proportionally */
+      /* margin-left: 10px; */
+      /* margin-right: 10px; */
+    }
+  }
+  .image-text-overlay {
+    position: absolute; /* Position the overlay relative to the image container */
+    top: 50%; /* Position the overlay vertically at the center */
+    left: 50%; /* Position the overlay horizontally at the center */
+    transform: translate(-50%, -50%); /* Center the overlay precisely */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the overlay */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for the overlay */
+  }
+  
+  .overlay-text {
+    color: #ffffff; /* Text color (white in this example) */
+    font-size: 18px; /* Font size of the overlay text */
+    text-align: center; /* Center-align the overlay text */
+  }
+  

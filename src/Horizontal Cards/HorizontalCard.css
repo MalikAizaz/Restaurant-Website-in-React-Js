@@ -1,0 +1,67 @@
+
+
+
+/* Style for the form */
+
+
+.main-card {
+    /* Center the card horizontally */
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+  }
+  
+  .horizontal-card {
+    /* Card container */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+    /* margin-bottom: 16px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    /* Image styling */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 12px;
+  }
+  
+  .card-content {
+    /* Flex container for title and description */
+    flex: 1;
+  }
+  
+  .card-title {
+    /* Title styling */
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    /* Description styling */
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* Adjust styles for screens smaller than 768px */
+  @media (max-width: 768px)and (min-width:0px){
+    .horizontal-card {
+        /* width: auto; */
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start (left) */
+    }
+  
+    .card-image {
+      margin-right: 0; /* Remove right margin for image */
+      margin-bottom: 12px; /* Add bottom margin for spacing */
+    }
+  }
+  

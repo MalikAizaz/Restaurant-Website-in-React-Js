@@ -1,0 +1,45 @@
+
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Full viewport height */
+    padding: 20px;
+  }
+  
+  .left-content {
+    flex: 1;
+    margin-bottom: 5px;
+    max-width: 60%;
+    text-align: center;
+  }
+  
+  .map-wrapper {
+    flex: 2;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+  }
+  
+  .map {
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    /* Adjust layout for small screens */
+    .map-container {
+      height: 300px; /* Auto height to fit content */
+      padding: 10px; /* Reduce padding for small screens */
+    }
+  
+    .left-content {
+      max-width: 100%; /* Take up full width on small screens */
+    }
+  
+    .map-wrapper {
+      max-width: 100%; /* Take up full width on small screens */
+      margin-top: 10px; /* Add spacing above the map */
+    }
+  }

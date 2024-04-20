@@ -1,0 +1,90 @@
+.login-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+  background-color: rgb(149, 149, 196);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin-bottom: 20px; */
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group {
+  text-align: start;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.foooter {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center; /* Center text within the div */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.foooter a {
+  text-decoration: none; /* Remove underline from anchor link */
+  color: blue; /* Set link color */
+  font-weight: bold; /* Make link text bold */
+  margin-top: 10px; /* Add top margin to the link */
+}
+
+.foooter p {
+  margin-top: 10px; /* Add top margin to the paragraph */
+  font-size: 14px; /* Adjust font size */
+  color: black; /* Set text color */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .login-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,61 @@
+.background-container {
+  width: 100%;
+  height: 600px; /* Set full viewport height */
+  background-image: url('./pexels-valeria-boltneva-1199957.jpg');
+  background-size: cover; /* Scale the background image to cover the entire container */
+  background-position: center; /* Center the background image horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.background-container h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Services h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Services p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Animation for typing effect */
+.heading {
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide any overflowing text */
+  border-right: .15em solid; /* Cursor effect */
+  animation: typing 3s steps(8, end) infinite; /* Apply animations */
+}
+
+@keyframes typing {
+  from {
+    width: 0; /* Start with zero width */
+  }
+  to {
+    width: 50%; /* Fully display the text */
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .Services p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .heading {
+    text-wrap: wrap;
+    animation: typing 3s steps(8, end) infinite; /* Adjust animation duration for smaller screens */
+  }
+}
