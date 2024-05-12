@@ -23,6 +23,7 @@ const App = () => {
       <Navbar onSearch={handleSearchQueryChange} />
       <Routes>
         <Route path="/" element={<Home searchQuery={searchQuery} />} />
+        
         <Route path="/about" element={<About searchQuery={searchQuery} />} />
         <Route path="/contact" element={<Contact searchQuery={searchQuery} />} />
         <Route path="/services" element={<Services searchQuery={searchQuery} />} />
