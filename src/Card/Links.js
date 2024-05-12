@@ -10,42 +10,42 @@ const Links = () => {
     {
       title: 'Card 1',
       description: 'Description for Card 1',
-      imageUrl: 'https://picsum.photos/300/300',
+      imageUrl: 'img/bg.jpg',
     },
     {
       title: 'Card 2',
       description: 'Description for Card 2',
-      imageUrl: 'https://picsum.photos/300/300',
+      imageUrl: 'img/bg1.jpg',
     },
     {
       title: 'Card 3',
       description: 'Description for Card 3',
-      imageUrl: 'https://picsum.photos/300/300',
+      imageUrl: 'img/bg2.jpg',
     },
     {
         title: 'Card 4',
         description: 'Description for Card 4',
-        imageUrl: 'https://picsum.photos/300/300',
+        imageUrl: 'img/bg3.jpg',
       },
       {
         title: 'Card 5',
         description: 'Description for Card 5',
-        imageUrl: 'https://picsum.photos/300/300',
+        imageUrl: 'img/pizza.jpg',
       },
       {
         title: 'Card 6',
         description: 'Description for Card 6',
-        imageUrl: 'https://picsum.photos/300/300',
+        imageUrl: 'img/pizza.jpg',
       },
       {
         title: 'Card 7',
         description: 'Description for Card 7',
-        imageUrl: 'https://picsum.photos/300/300',
+        imageUrl: 'img/Pizza2.jpg',
       },
       {
         title: 'Card 8',
         description: 'Description for Card 8',
-        imageUrl: 'https://picsum.photos/300/300',
+        imageUrl: 'img/pizza.jpg',
       },
   ];
 

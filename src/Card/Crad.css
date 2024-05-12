@@ -29,7 +29,7 @@
   }
   
   .card-image {
-    width: 100%; /* Ensure image takes full width of the card */
+    width: auto; /* Ensure image takes full width of the card */
     height: 200px; /* Fixed height for the card image */
     object-fit: cover; /* Maintain aspect ratio and cover the entire space */
     /* border-top-left-radius: 8px;
